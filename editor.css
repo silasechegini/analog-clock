@@ -1,7 +1,15 @@
 
 body {
-    background-color: cyan;
+    background-color: #563e91 !important;
+    /* background: transparent; */
 }
+
+.rgba-gradient {
+    background: -moz-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+    background: linear-gradient(to 45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+  }
+
 /* Layout */
 .main {
     display: flex;
@@ -10,11 +18,11 @@ body {
     justify-content: center;
     align-items: middle;
 }
-.date h1 {
-    background-color: white;
+.date {
+    /* background-color: black; */
+    color: white;
     text-align: center;
     margin-bottom: 0;
-    color: black;
 }
 
 .clockbox, #clock {
